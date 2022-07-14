@@ -342,7 +342,7 @@ jobs:
               apk add --update gzip
               pip3 install awscli
         - attach_workspace:
-          at: ~/      
+            at: ~/      
         - run:
             name: Backend smoke test.
             command: |
